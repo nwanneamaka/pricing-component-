@@ -146,6 +146,7 @@
  }
  .progress .switch input:checked + .slider {
    transform: translateX(18px);
+    background-color: var(--main-color);
  }
  
  hr {
