@@ -35,6 +35,33 @@ function refreshPrices(){
 
     if(range.value == 2){
         if(myCheckbox.checked == true){
+            price.textContent = 10;
+        }else{
+            price.textContent = 10;
+        }
+        pageViews.textContent = "30k";
+    }
+    if(range.value == 3){
+
+        if(myCheckbox.checked == true){
+            price.textContent = 12;
+        }else{
+            price.textContent = 12;
+        }
+        pageViews.textContent = "50k";
+    } 
+if(range.value == 4){
+
+        if(myCheckbox.checked == true){
+            price.textContent = 14;
+        }else{
+            price.textContent = 14;
+        }
+        pageViews.textContent = "70k";
+    } 
+
+    if(range.value == 5){
+        if(myCheckbox.checked == true){
             price.textContent = 16;
         }else{
             price.textContent = 16;
